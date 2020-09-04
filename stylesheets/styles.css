@@ -1,0 +1,277 @@
+* {
+  margin: auto;
+}
+/*-------- Header Decoration --------*/
+.header {
+  margin-top: 10px;
+  height: 280px;
+  width: 848px;
+  background-color: black;
+  border: 2px solid black;
+}
+.header h1 {
+  position: absolute;
+  right: 790px;
+  top: 225px;
+  color: white;
+}
+.header p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  right: 890px;
+  top: 270px;
+}
+.headshot {
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  position: absolute;
+  top: 182px;
+  left: 350px;
+}
+.buttons {
+  position: absolute;
+  top: 260px;
+  right: 362px;
+}
+.tabs {
+  height: 30px;
+  width: 828px;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid black;
+  position: absolute;
+  left: 333.3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.nav li {
+  position: relative;
+  top: 5px;
+  left: 170px;
+  display: inline-block;
+  outline: none;
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+
+#timeline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+/*-------- Left Column Decoration --------*/
+.left-section {
+  margin-top: 10px;
+  position: absolute;
+  top: 380px;
+  left: 332px;
+}
+.subcol-1 {
+  height: 170px;
+  width: 326px;
+  border: 2px solid black;
+}
+.subcol-1 hr {
+  margin-top: 20px;
+}
+.subcol-1 p {
+  color: #4267b2;
+}
+.subcol-1 a {
+  text-decoration: none;
+}
+
+.subcol-2 {
+  margin-top: 5px;
+  height: 120px;
+  width: 326px;
+  border: 2px solid black;
+}
+.subcol-2 hr {
+  margin-top: 5px;
+}
+.subcol-3-apps {
+  margin-top: 15px;
+  width: 326px;
+  border: 2px solid black;
+  position: relative;
+}
+.wlcm {
+  text-align: right;
+  height: 105px;
+}
+.wlcm-cat {
+  position: absolute;
+  border: 2px solid black;
+  left: 2px;
+}
+.fwb {
+  text-align: right;
+  height: 105px;
+}
+.fwb-img {
+  margin-top: 3px;
+  border: 2px solid black;
+  position: absolute;
+  left: 2px;
+}
+.live-stream {
+  text-align: right;
+  height: 105px;
+}
+.live-img {
+  margin-top: 3px;
+  border: 2px solid black;
+  position: absolute;
+  left: 2px;
+}
+.photos {
+  margin-top: 5px;
+  width: 326px;
+  border: 2px solid black;
+}
+.photos h3 {
+  text-align: center;
+}
+.ph-1 img,
+.ph-2 img,
+.ph-3 img {
+  margin-top: 5px;
+  border: 2px solid black;
+  margin-left: 4px;
+}
+.ph-1,
+.ph-2,
+.ph-3 {
+  display: inline;
+}
+
+.ph-4 img,
+.ph-5 img,
+.ph-6 img {
+  margin-top: 5px;
+  border: 2px solid black;
+  margin-left: 4px;
+}
+.ph-4,
+.ph-5,
+.ph-6 {
+  display: inline;
+}
+.ph-7 img,
+.ph-8 img,
+.ph-9 img {
+  margin-top: 5px;
+  border: 2px solid black;
+  margin-left: 4px;
+}
+.ph-7,
+.ph-8,
+.ph-9 {
+  display: inline;
+}
+
+/*------- Right Column Decoration -------*/
+
+.right-section {
+  margin-top: 10px;
+  margin-left: 06px;
+
+  position: absolute;
+  top: -11px;
+  left: 332px;
+}
+.rightsec-col1 {
+  width: 510px;
+  height: 280px;
+  border: 2px solid black;
+}
+
+.rightsec-col1 p {
+  position: relative;
+  top: 20px;
+  left: 54px;
+}
+.rightsec-col1 img {
+  background-color: black;
+  border: 2px solid black;
+  position: absolute;
+  top: 3px;
+  left: 6px;
+}
+.rightsec-col1 a {
+  text-decoration: none;
+}
+
+div .disp-cover {
+  position: absolute;
+  top: 50px;
+  left: 04px;
+  background-color: black;
+  border: 3px solid black;
+}
+.rightsec-col1 hr {
+  margin-top: 225px;
+}
+.options li {
+  color: #4267b2;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  top: 245px;
+  left: -10px;
+}
+.rightsec-col2 {
+  margin-top: 10px;
+  width: 510px;
+  height: 150px;
+  border: 2px solid black;
+}
+.rightsec-col2 img {
+  background-color: black;
+  border: 2px solid black;
+  position: relative;
+  top: 3px;
+  left: 6px;
+}
+.rightsec-col2 p {
+  text-align: center;
+}
+.rightsec-col2 h4 {
+  position: absolute;
+  left: 60px;
+  top: 320px;
+}
+
+.right-col2-options li {
+  color: #4267b2;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  top: 08px;
+  left: -15px;
+}
+.rightsec-col3 {
+  position: absolute;
+  top: 455px;
+  left: 340px;
+  width: 510px;
+  height: 520px;
+  border: 2px solid black;
+}
+.rightsec-col3 img {
+  border: 2px solid black;
+  margin: 10px 5px 5px 8px;
+}
+.rightsec-col3 p {
+  position: absolute;
+  top: 25px;
+  left: 55px;
+}
+.event-venue {
+  margin: 15px 0 0 10px;
+  font-size: large;
+}
